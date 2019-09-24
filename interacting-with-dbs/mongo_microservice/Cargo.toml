@@ -1,0 +1,19 @@
+[package]
+name = "mongo_microservice"
+version = "0.1.0"
+authors = ["Naaman Curtis <naaman.the.dev@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bson = "0.14.0"
+chrono = "0.4.9"
+clap = "2.33.0"
+failure = "0.1.5"
+mongodb = "0.4.0"
+r2d2 = "0.8.5"
+r2d2-mongodb = "0.2.2"
+serde = "1.0.101"
+serde_derive = "1.0.101"
+url = "2.1.0"
