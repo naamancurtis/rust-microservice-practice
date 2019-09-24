@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package ringproto;
+
+message Empty {}
+
+service Ring {
+    rpc StartRollCall(Empty) returns (Empty);
+    rpc MarkItself(Empty) returns (Empty);
+}

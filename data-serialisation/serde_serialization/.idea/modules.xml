@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/reactive_microservices.iml" filepath="$PROJECT_DIR$/.idea/reactive_microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serde_serialization.iml" filepath="$PROJECT_DIR$/serde_serialization.iml" />
     </modules>
   </component>
 </project>
