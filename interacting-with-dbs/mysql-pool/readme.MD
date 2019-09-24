@@ -1,4 +1,4 @@
-# Postgres Miniature Users Microservice
+# MySQL Miniature Users Microservice
 
 ## Connection Pool
 
@@ -19,7 +19,7 @@ SUBCOMMANDs:
 ### Running Postgres in Docker
 1. Start the Postgres Container
 ```shell script
-docker run -it --rm --name test-pg -p 5432:5432 postgres
+docker run -it --rm --name test-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=test -p 3306:3306 mysql
 ```
 
 2. If you need to connect to the container, open a new terminal
