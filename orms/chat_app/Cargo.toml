@@ -1,0 +1,18 @@
+[package]
+name = "chat_app"
+version = "0.1.0"
+authors = ["Naaman Curtis <naaman.the.dev@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.9.0"
+chrono = { version = "0.4.9", features = ["serde"] }
+clap = "2.33.0"
+diesel = { version = "1.4.2" , features = ["chrono", "postgres", "r2d2"] }
+failure = "0.1.5"
+r2d2 = "0.8.5"
+serde = "1.0.101"
+serde_derive = "1.0.101"
+uuid = { version = "0.7.4" , features = ["serde", "v4"] }
