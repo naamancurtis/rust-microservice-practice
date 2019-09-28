@@ -1,0 +1,21 @@
+[package]
+name = "rouille_framework"
+version = "0.1.0"
+authors = ["Naaman Curtis <naaman.the.dev@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.14.1"
+clap = "2.33"
+diesel = { version = "1.4.2", features = ["sqlite", "r2d2"]}
+env_logger = "0.7"
+failure = "0.1.5"
+log = "0.4.8"
+r2d2 = "0.8.5"
+rouille = "3.0.0"
+rust-crypto = "0.2.36"
+serde = "1.0.101"
+serde_derive = "1.0.101"
+uuid = { version = "0.7.4", features = ["serde", "v4"]}
