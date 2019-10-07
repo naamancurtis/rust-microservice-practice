@@ -1,5 +1,5 @@
 [package]
-name = "actix_syncarbiter"
+name = "actix-arbiter"
 version = "0.1.0"
 authors = ["Naaman Curtis <naaman.the.dev@gmail.com>"]
 edition = "2018"
@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 actix = "0.8.3"
+futures = "0.1.29"
